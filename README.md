@@ -10,6 +10,7 @@
 
  添加网络的权限 
 #  重点 
+---
 mWebView.setWebViewClient(new WebViewClient(){
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
@@ -19,3 +20,4 @@ mWebView.setWebViewClient(new WebViewClient(){
                 return true;
             }
         }
+--- 
